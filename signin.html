@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sample.css">
+  <title>University Web - Site || Signin Page</title>
+</head>
+<body>
+    <section class="header">
+
+        <nav>
+          <a href="index.html"><img src="images/headIcon.png" alt="logo" /></a>
+          <div class="nav-links" id="nav-links">
+            <i class="fas fa-2x fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="course.html">COURSE</a></li>
+              <li class="relative"><a href="#">CONTACTS</a>
+                <div class="dropdown absolute">
+                  <ul>
+                    <li><a href="#">Link-1</a></li>
+                    <li><a href="#">Link-2</a></li>
+                    <li><a href="#">Link-3</a></li>
+                    <li><a href="#">Link-4</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="relative"><a href="blog.html">SignUp/Signin</a>
+                <div class="login-sinup dropdown absolute">
+                  <ul>
+                    <li><a href="sample.html">SignUp</a></li>
+                    <li><a href="signin.html">Signin</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <i class="fas fa-2x fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+        <div class="row">
+            <div class="col-1">
+                <h3>Heading Related to University</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Dignissimos quod 
+                     <br>
+                     obcaecati fugit vitae deleniti quisquam
+                      atque minus consectetur dolores
+                      <br>
+                     obcaecati fugit vitae deleniti quisquam
+                      atque.</p>
+            </div>
+            <div class="col-2">
+                <div class="form">
+                    <form action="#" >
+                        <h4>Login</h4>
+                        
+                        <div class="form-group">
+                            <input type="email" class="input" name="email" required>
+                            <p class="email name"> Email</p>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="input" name="password" required>
+                            <p class="password name"> Password</p>
+                        </div>
+            
+                        <div class="btn">
+                            <button>Submit</button>
+                            <p class="text">
+                                Create new account? <a href="sample.html" style="color:white;">  SignUp</a>
+                            </p>
+    
+                        </div>
+            
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
