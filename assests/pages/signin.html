@@ -4,42 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sample.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/sample.css">
+    <script src="https://kit.fontawesome.com/71eb553118.js" crossorigin="anonymous"></script>
+
   <title>University Web - Site || Signin Page</title>
 </head>
 <body>
     <section class="header">
-
-        <nav>
-          <a href="index.html"><img src="images/headIcon.png" alt="logo" /></a>
-          <div class="nav-links" id="nav-links">
-            <i class="fas fa-2x fa-times" onclick="hideMenu()"></i>
-            <ul>
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="about.html">ABOUT</a></li>
-              <li><a href="course.html">COURSE</a></li>
-              <li class="relative"><a href="#">CONTACTS</a>
-                <div class="dropdown absolute">
-                  <ul>
-                    <li><a href="#">Link-1</a></li>
-                    <li><a href="#">Link-2</a></li>
-                    <li><a href="#">Link-3</a></li>
-                    <li><a href="#">Link-4</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="relative"><a href="blog.html">SignUp/Signin</a>
-                <div class="login-sinup dropdown absolute">
-                  <ul>
-                    <li><a href="sample.html">SignUp</a></li>
-                    <li><a href="signin.html">Signin</a></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <i class="fas fa-2x fa-bars" onclick="showMenu()"></i>
-        </nav>
+      <nav>
+        <a href="../../index.html"><img src="../images/headIcon.png" alt="logo" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fas fa-2x fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="../../index.html">HOME</a></li>
+            <li><a href="../pages/about.html">ABOUT</a></li>
+            <li><a href="../pages/course.html">COURSE</a></li>
+            <li class="relative"><a href="#">CONTACTS</a>
+              <div class="dropdown absolute">
+                <ul>
+                  <li><a href="#">Link-1</a></li>
+                  <li><a href="#">Link-2</a></li>
+                  <li><a href="#">Link-3</a></li>
+                  <li><a href="#">Link-4</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="relative" style="color: white ; cursor: pointer;">SignUp/Signin
+              <div class="login-sinup dropdown absolute">
+                <ul>
+                  <li><a href="../pages/sample.html">SignUp</a></li>
+                  <li><a href="../pages/signin.html">Signin</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <i class="fas fa-2x fa-bars" onclick="showMenu()"></i>
+      </nav>
     
         <div class="row">
             <div class="col-1">
@@ -81,5 +83,7 @@
         </div>
 
     </section>
+    
+    <script src="../index.js"></script>
 </body>
 </html>

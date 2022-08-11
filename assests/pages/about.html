@@ -5,44 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/icon.png">
+    <link rel="icon" href="../images/icon.png">
 
-    <link rel="stylesheet" href="about.css" />
-    
+    <link rel="stylesheet" href="../style/header.css" />
+    <link rel="stylesheet" href="../style/about.css" />
+    <script src="https://kit.fontawesome.com/71eb553118.js" crossorigin="anonymous"></script>
+
     <title>University Web - Site || About Page</title>
 </head>
 
 <body>
     <!------------Header----------->
 
-    <section class="header">
-        <nav>
-            <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
-            <div class="nav-links" id="nav-links">
-                <i class="fas fa-2x fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="course.html">COURSE</a></li>
-                    <li><a href="blog.html">BLOGS</a></li>
-                    <li><a href="content.html">CONTACTS</a></li>
-                </ul>
+   <section class="header">
+    <nav>
+      <a href="../../index.html"><img src="../images/headIcon.png" alt="logo" /></a>
+      <div class="nav-links" id="nav-links">
+        <i class="fas fa-2x fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../../index.html">HOME</a></li>
+          <li><a href="../pages/about.html">ABOUT</a></li>
+          <li><a href="../pages/course.html">COURSE</a></li>
+          <li class="relative"><a href="#">CONTACTS</a>
+            <div class="dropdown absolute">
+              <ul>
+                <li><a href="#">Link-1</a></li>
+                <li><a href="#">Link-2</a></li>
+                <li><a href="#">Link-3</a></li>
+                <li><a href="#">Link-4</a></li>
+              </ul>
             </div>
-            <i class="fas fa-2x fa-bars" onclick="showMenu()"></i>
-        </nav>
+          </li>
+          <li class="relative" style="color: white ; cursor: pointer;">SignUp/Signin
+            <div class="login-sinup dropdown absolute">
+              <ul>
+                <li><a href="../pages/sample.html">SignUp</a></li>
+                <li><a href="../pages/signin.html">Signin</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <i class="fas fa-2x fa-bars" onclick="showMenu()"></i>
+    </nav>
 
-        <div class="text-box">
-            <h1>About Us</h1>
-            <p class="text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
-                animi, temporibus molestiae accusantium quidem incidunt placeat minus
-                quibusdam ad officiis molestias cupiditate voluptatibus rem assumenda,
-                atque corporis itaque facilis similique delectus repellat nobis
-                commodi sunt? Minima nemo odio dolor?
-            </p>
-            <a href="" class="hero-btn">Visit Us to know more</a>
-        </div>
-    </section>
+    <div class="text-box">
+      <h1>About Us</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+        animi, temporibus molestiae accusantium quidem incidunt placeat minus
+        quibusdam ad officiis molestias cupiditate voluptatibus rem assumenda,
+        atque corporis itaque facilis similique delectus repellat nobis
+        commodi sunt? Minima nemo odio dolor?
+      </p>
+      <a href="#" class="hero-btn">Visit Us to know more</a>
+    </div>
+  </section>
 
     <!------------About Content----------->
 
@@ -131,8 +149,7 @@
     </section>
 
 
-    <script src="https://kit.fontawesome.com/71eb553118.js" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="../index.js"></script>
 
 </body>
 

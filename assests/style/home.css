@@ -43,9 +43,9 @@ body {
   width: 100%;
   overflow: hidden;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url("images/cover.jpg");
+    url("../images/cover.jpg");
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   position: relative;
 }
 nav {
@@ -335,7 +335,7 @@ h3 {
   margin: 100px auto;
   width: 80%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(images/banner2.jpg);
+    url(../images/banner2.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 10px;
